@@ -1,0 +1,36 @@
+<!-- Ejercicio sin atributos-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<departamentos>
+
+    <departamento nombre="marketing">
+        <empleado>
+            <nombre>Jose Antonio</nombre>
+            <apellidos>Alcalá</apellidos>
+            <dni>20621763D</dni>
+            <telefono>653187506</telefono>
+            <cargo>Director</cargo>
+            <sueldo>5000</sueldo>
+        </empleado>
+        <empleado>
+            <nombre>Alejandro</nombre>
+            <apellido>Morales</apellido>
+            <dni>51849652F</dni>
+            <telefono>648521957</telefono>
+            <cargo>Técnico</cargo>
+            <sueldo>2</sueldo>
+        </empleado>
+        </departamento>
+
+    <departamento nombre="desarrollo">
+        <empleado>
+            <nombre>Juan Antonio</nombre>
+            <apellidos>Fuentes</apellidos>
+            <dni>98547621L</dni>
+            <telefono>698247359</telefono>
+            <cargo>Director</cargo>
+            <sueldo>2</sueldo>
+        </empleado>
+        </departamento>
+
+</departamentos>

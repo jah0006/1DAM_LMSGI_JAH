@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Práctica XML -->
+<bibliotecas>
+    <biblioteca ciudad="Malaga">
+        <libro>
+            <titulo>Así es la puta vida</titulo>
+            <autor>Jordi Salvaje</autor>
+            <paginas>200</paginas>
+        </libro>
+        <libro>
+            <titulo>Volver a tragarse los pájaros</titulo>
+            <autor>Mister Jagger</autor>
+            <paginas>557</paginas>
+        </libro>
+    </biblioteca>
+
+    <biblioteca ciudad="Jaen">
+        <libro>
+            <titulo>El libro troll</titulo>
+            <autor>Rubius</autor>
+            <paginas>345</paginas>
+        </libro>
+    </biblioteca>
+</bibliotecas>

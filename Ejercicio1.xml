@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Tablas Base de datos-->
+
+<baseDatos>
+    <videojuego nombre = "fifa">
+        <desarrollador>
+            <nombre>eaSports</nombre>
+            <pais>
+                <nombre>EEUU</nombre>
+                <pobTotal>347.000.000</pobTotal>
+                <numJugadores>205.000.000</numJugadores>
+            </pais>
+        </desarrollador>
+        <pegi>3</pegi>
+        <genero>
+            <nombre>deportes</nombre>
+            <masJugado>FIFA</masJugado>
+        </genero>
+        <plataforma>
+            <nombre>playStation</nombre>
+            <empresa>Sony</empresa>
+        </plataforma>
+    </videojuego>
+
+
+    <videojuego nombre = "fortnite">
+        <desarrollador>
+            <nombre>epicGames</nombre>
+            <pais>
+                <nombre>EEUU</nombre>
+                <pobTotal>347.000.000</pobTotal>
+                <numJugadores>205.000.000</numJugadores>
+            </pais>
+        </desarrollador>
+        <pegi>12</pegi>
+        <genero>
+            <nombre>shooter</nombre>
+            <masJugado>callOfDuty</masJugado>
+        </genero>
+        <plataforma>
+            <nombre>playStation</nombre>
+            <empresa>Sony</empresa>
+        </plataforma>
+    </videojuego>
+
+
+    <videojuego nombre = "minecraft">
+        <desarrollador>
+            <nombre>mojang</nombre>
+            <pais>
+                <nombre>suecia</nombre>
+                <pobTotal>10.588.020</pobTotal>
+                <numJugadores>4.700.000</numJugadores>
+            </pais>
+        </desarrollador>
+        <pegi>7</pegi>
+        <genero>
+            <nombre>superviviencia</nombre>
+            <masJugado>minecraft</masJugado>
+        </genero>
+        <plataforma>
+            <nombre>windows</nombre>
+            <empresa>microsoft</empresa>
+        </plataforma>
+    </videojuego>
+
+
+    <videojuego nombre = "gta">
+        <desarrollador>
+            <nombre>rockstar</nombre>
+            <pais>
+                <nombre>EEUU</nombre>
+                <pobTotal>347.000.000</pobTotal>
+                <numJugadores>205.000.000</numJugadores>
+            </pais>
+        </desarrollador>
+        <pegi>18</pegi>
+        <genero>
+            <nombre>mundoAbierto</nombre>
+            <masJugado>gta</masJugado>
+        </genero>
+        <plataforma>
+            <nombre>playStation</nombre>
+            <empresa>Sony</empresa>
+        </plataforma>
+    </videojuego>
+
+
+<videojuego nombre = "uncharted">
+        <desarrollador>
+            <nombre>naughtyDogs</nombre>
+            <pais>
+                <nombre>EEUU</nombre>
+                <pobTotal>347.000.000</pobTotal>
+                <numJugadores>205.000.000</numJugadores>
+            </pais>
+        </desarrollador>
+        <pegi>16</pegi>
+        <genero>
+            <nombre>historia</nombre>
+            <masJugado>theLastOfUs</masJugado>
+        </genero>
+        <plataforma>
+            <nombre>playStation</nombre>
+            <empresa>Sony</empresa>
+        </plataforma>
+    </videojuego>
+
+</baseDatos>

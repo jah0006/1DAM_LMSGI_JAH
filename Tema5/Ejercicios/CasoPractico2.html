@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Práctico 2</title>
+</head>
+<body>
+    <form action="proceso.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>Nombre: <br> <input type="text" name="nombre" required></p>
+            <p>Edad: <br> <input type="number"></p>
+            <p><input type="submit"></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Datos de interés</legend>
+            <p>¿Estás casado? <br> 
+                <input type="radio" value="si"> Sí 
+                <input type="radio" value="no"> No </p>
+            <p>Deportes: <br>
+                <input type="checkbox" value="basket"> Baloncesto <br>
+                <input type="checkbox" value="futbol"> Futbol <br>
+                <input type="checkbox" value="ciclismo"> Ciclismo
+            </p>
+        </fieldset>
+        <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

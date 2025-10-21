@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 180);
+        }
+        fieldset{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="proceso.php" method="post"></form>
+        <fieldset>
+            <legend>Datos personales</legend>
+                <p>Nombre: <br> <input type="text" name="nombre" maxlength="15" required></p>
+                <p>Apellidos: <br> <input type="text" name="apellidos"></p>
+                <p>Edad: <br> <input type="number" name="edad"></p>
+                <p><input type="radio" value="h"> Hombre <input type="radio" value="m"> Mujer</p>
+                <p>Contraseña: <br> <input type="password" name="contrasena"></p>
+        </fieldset>
+
+        <fieldset>
+                <legend>Contacto</legend>
+                <p>Correo electrónico: <br> <input type="email" name="correo" required></p>
+                <p>Código postal: <br> <input type="number" name="cp" maxlength="5"></p>
+                <p>Dirección: <br> <input type="text" name="direccion"></p>
+                <p>Ciudad: <br><select name="ciudad">
+                    <option value="jaen">Jaén</option>
+                    <option value=cordoba">Córdoba</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="malaga">Málaga</option>
+                    <option value="granada">Granada</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="almeria">Almería</option>
+                    <option value="huelva">Huelva</option>
+                </select></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de interés</legend>
+            <p>Estado civil: <br> <input type="radio" value="s"> Soltero <input type="radio" value="c"> Casado</p>
+            <p>Hobbies: 
+                <br> <input type="checkbox" name="deporte">Deporte
+                <br> <input type="checkbox" name="cine">Cine
+                <br> <input type="checkbox" name="lectura">Lectura
+                <br> <input type="checkbox" name="correr">Correr</p>
+            <p><textarea name="comentarios" placeholder="Escribe algo..." rows="6" cols="20"></textarea></p>
+        </fieldset>
+        <br>
+        <input type="submit" onclick="alert('Formulario enviado correctamente.')"> <input type="reset">
+    </form>
+</body>
+</html>

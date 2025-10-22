@@ -10,11 +10,12 @@
         }
         fieldset{
             background-color: white;
+            margin: auto;
         }
     </style>
 </head>
 <body>
-    <form action="proceso.php" method="post"></form>
+    <form action="proceso.php" method="post">
         <fieldset>
             <legend>Datos personales</legend>
                 <p>Nombre: <br> <input type="text" name="nombre" maxlength="15" required></p>
@@ -52,7 +53,7 @@
             <p><textarea name="comentarios" placeholder="Escribe algo..." rows="6" cols="20"></textarea></p>
         </fieldset>
         <br>
-        <input type="submit" onclick="alert('Formulario enviado correctamente.')"> <input type="reset">
+        <input type="submit"> <input type="reset">
     </form>
 </body>
 </html>

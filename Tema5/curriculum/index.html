@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Antonio Alcala Hinojosa">
+    <meta name="description" content="Página personal creada con HTML">
+    <title>Mi perfil profesional</title>
+    <link rel="stylesheet" href="./css/style.css"> <!--en esta linea enlazo el archivo de css con la pagina web-->
+</head>
+<body>
+    <div id="principal"><!--Aqui comienza el div principal, concretamente el cuadro blanco de la página, que abarca toda la pagina-->
+        <h1>Mi perfil profesional</h1><br>
+        <div id="botones"><!--Estos son los botones del indice-->
+            <div id="fondoBoton"><a href="#datos"><img src="./img/datos.png" id="imgDatos" title="Datos personales"></a></div>
+            <div id="fondoBoton"><a href="./html/estudios.html"><img src="./img/estudios.png" id="imgEstudios" title="Estudios"></a></div>
+            <div id="fondoBoton"><a href="./img/cv.pdf" target="_blank"><img src="./img/cv.png" id="imgCv" title="Curriculum"></a></div>
+            <div id="fondoBoton"><a href="./html/experiencia.html"><img src="./img/trabajo.png" id="imgTrabajo" title="Experiencia Laboral"></a></div>
+        </div>
+
+        <!--el blockquote sirve para, por ejemplo, poner la frase que dijo alguien conocido-->
+        <blockquote style="text-align: center;">"Si depurar es el proceso de quitar los bugs de un código,<br> 
+                                                    programar debe ser el proceso de ponerlos ahí"<br>
+                                                    Edsger Dijkstra</blockquote>
+        
+        <hr>
+
+
+        
+        <div>   <!--aqui comienza el primer div, en el que hablare sobre mis datos personales-->
+            <div id="datos"><h2>Datos personales</h2></div>
+            <div id="div1"><!--En este div recoge la foto y los datos, para que se puedan colocar uno al lado del otro -->
+                <img src="./img/foto.jpeg" alt="Mi Foto" width="200px" title="Jose Antonio Alcalá"> <!--En la foto, le he puesto los atributos de texto alternativo, tamaño y un titulo -->
+                <ul> <!--listado desordenado con mis datos personales-->
+                    <li>Me llamo Jose Antonio Alcalá Hinojosa</li><br>
+                    <li>Tengo 21 años</li><br>
+                    <li>Vivo en Priego de Córdoba (Córdoba)</li><br>
+                    <li>Estoy estudiando <em>Desarrollo de Aplicaciones Multiplataforma (DAM)</em></li><br>
+                    <li>Actualmente, resido en Jaén</li>
+                </ul>
+            </div>
+            <br><p id="textoCentro">Algo de información extra es que tengo <span style="color: red;"> carnet de conducir</span> y <span style="color: red;">coche propio</span></p><!--aqui uso un span para cambiar el estilo a una parte concreta del parrafo-->
+        </div><hr><br><br><br>
+        <div><!--en este div está el boton con enlace que lleva al codigo de la página en github-->
+            <div id="fondoBoton" style="display: flex; margin: auto;"><a href="https://github.com/jah0006/1DAM_LMSGI_JAH/curriculum" target="_blank"><img src="./img/github.png" id="imgCv" title="Curriculum"></a></div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+}
+#cursiva{
+    font-style: italic;
+}
+body{
+    background-color: rgb(243, 255, 176);
+}
+#principal{
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+}
+#div1{
+    justify-content: center;
+    display: flex;
+}
+#textoCentro{
+    text-align: center;
+}
+h2{
+    color: black;
+}
+#datos{
+    background-color: rgb(255, 234, 143);
+    text-align: center;
+}
+#indice{
+    display: flex;
+}
+#imgDatos {
+    width: 200px;
+    height: auto;
+}
+#imgCv {
+    width: 150px;
+    height: auto;
+}
+#imgTrabajo {
+    width: 200px;
+    height: auto;
+}
+#imgEstudios {
+    width: 120px;
+    height: auto;
+}
+#botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+#fondoBoton {
+    background-color: rgb(255, 234, 143);
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#fotoFormacion{
+    margin: auto;
+    display: flex;
+    border-style: solid;
+    border-color:rgb(255, 234, 143);
+}
+iframe{
+    display: flex;
+    margin: auto;
+}
+#interlineado{
+    line-height: 35px;
+}

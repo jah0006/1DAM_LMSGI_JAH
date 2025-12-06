@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo6</title>
+    <style>
+      table {
+        caption-side: bottom;       /*El titulo sale debajo*/
+        border-collapse: collapse;
+        width: 100%;                /*Lo que ocupa la tabla*/
+        border: solid 3px blue;   /*Borde exterior de la tabla*/
+      }
+      th, td {
+        border: solid 1px black;
+        height: 40px;
+        vertical-align: middle;     /*Centrar de forma vertical*/
+        text-align: center;         /*Centrar de forma horizaontal*/
+      }
+      tr:hover{
+            background-color: orange;
+            
+        }
+    </style>
+
+
+  </head>
+  <body>
+    <table>
+
+      <caption>
+        <b>Fig. 1 .-</b>
+        Precio de las naranjas
+      </caption>
+
+      <thead>
+        <tr>
+          <th colspan="2">Naranjas (colspan)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">Malaga (rowspan)</td>
+          <td>0,54€</td>
+        </tr>
+        <tr>
+          <td>0,45€</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Promedio</th>
+          <th>0,5€</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

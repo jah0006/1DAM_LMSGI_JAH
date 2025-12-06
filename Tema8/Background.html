@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo7</title>
+    <style>
+
+        *{
+            box-sizing: border-box; 
+            /*  
+                border-box = suma los bordes, padding y contenido para que no se pase de un máximo
+                content-box = no tiene en cuentas los bordes ni los padding
+            */
+        }
+
+        body{
+            background-image: url(./css/ale.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-attachment: fixed;
+
+            /*fixed = se fija en la pantalla
+            scroll = se fija en la página*/
+
+            background-size:100% 400px ;
+        }
+        p{
+            border: solid 2px blue;
+            padding: 10px;
+            width: 50%;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propiedad background</h1>
+    <p>El fondo es una imagen que no se repite, se fija y se coloca dentro del body</p>
+    
+</body>
+</html>

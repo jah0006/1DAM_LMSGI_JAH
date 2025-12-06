@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea 6.1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+  <body>
+    <!-- Encabezado principal y menu de navegacion -->
+    <header>
+      <h1>Tarea 6.1: Creación de una página web en HTML5</h1>
+      <p id="textoCentro">Jose Antonio Alcalá Hinojosa || 1º DAM</p>
+      <nav id="textoCentro">
+        <a href="#introduccion">Inicio</a>
+        <a href="#formulario">Formulario</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#explicacion">Explicación</a>
+      </nav>
+    </header><br>
+
+    <!-- Contenido -->
+    <main>
+      <section id="introduccion">
+        <article>
+          <h2>Introducción</h2>
+          <p>
+            Esta página demuestra el uso de etiquetas semánticas de HTML5:
+            header, nav, main, section, article, aside y footer. Además incluye ejemplos de los nuevos
+            controles de formulario, elementos multimedia y una sección de FAQ
+            interactiva.
+          </p>
+
+          <h3>Objetivos de la práctica</h3>
+          <ul>
+            <li>Aplicar estructura semántica en un documento HTML5.</li>
+            <li>
+              Utilizar controles modernos de formulario como email, url, date, color, range y number.
+            </li>
+            <li>Incluir audio y video con sus atributos principales.</li>
+            <li>Crear una sección FAQ interactiva.</li>
+          </ul>
+        </article>
+
+        <!-- Formulario con nuevos controles HTML5 -->
+        <article id="formulario">
+          <h2>Formulario</h2>
+
+          <form action="proceso.php" method="post">
+
+            <!-- Campo tipo email -->
+            <p>Email: <br> <input type="email" name="email" placeholder="ejemplo@dominio.com">
+            </p>
+
+            <!-- Campo tipo URL -->
+            <p>Página Web: <br> <input type="url" name="web"></p>
+
+            <!-- Campo tipo fecha -->
+            <p>Fecha de Nacimiento: <br> <input type="date" name="fecha" required></p>
+
+            <!-- Campo tipo color -->
+            <p>Color favorito: <br> <input type="color" name="color" value="#FF0000"></p>
+
+            <!-- Campo tipo rango -->
+            <p>Nivel de satisfacción: <br> <input type="range" value="50"></p>
+
+            <!-- Campo tipo número -->
+            <p>Edad: <br> <input type="number" name="edad" pattern="[0-100]"></p>
+
+            <!-- Campo tipo progreso-->
+             <p>Progreso: <br> <meter value="60" max="100"></meter></p>
+
+            <!-- Botones del formulario -->
+             <input type="submit">
+             <input type="reset" value="Borrar">
+          </form>
+        </article>
+      </section>
+
+      <!-- Contenido elementos multimedia -->
+      <aside>
+        <h2 id="multimedia">Multimedia</h2>
+
+        <!-- Audio -->
+        <h3>Audio</h3>
+        <audio src="./multimedia/sonido.mp3" controls autoplay loop muted></audio>
+
+        <!-- Video -->
+        <h3>Video</h3>
+        <h4>Archivo de video</h4>
+        <!--No sé por qué no funciona-->
+        <video src="./multimedia/pelicula.webm" controls muted poster="./img/diariosur.png" width="400px"></video>
+        
+
+        <!-- Video de youtube -->
+        <h4>Vídeo Youtube</h4>
+        <iframe
+          src="https://youtu.be/R2u54RHKay8?si=esod3V8UJVZ2SaoS"
+        ></iframe>
+      </aside>
+    
+
+    <!-- Sección de Preguntas y Respuestas -->
+    <section>
+      <article>
+        <h2 id="faq">Preguntas Frecuentes (FAQ)</h2>
+
+        
+        <details>
+          <summary>
+            Qué son las etiquetas semánticas y por qué son importantes?
+          </summary>
+          <p>
+            Las etiquetas semánticas (por ejemplo, header, nav, main o article) aportan significado al contenido,
+            mejoran la accesibilidad y ayudan a los navegadores a
+            entender la estructura de la página.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Qué ventajas ofrecen los nuevos controles de formulario de HTML5?
+          </summary>
+          <p>
+            Ofrecen validación nativa (ej. type="email"), mejores
+            interfaces en dispositivos móviles (ej. type="date") y
+            permiten reducir la dependencia de JavaScript para comprobaciones
+            básicas.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            ¿Puedo usar video y audio sin servidores externos?
+          </summary>
+          <p>
+            Sí, siempre que guardes los archivos multimedia en tu servidor o los
+            incluyas en el mismo proyecto.
+          </p>
+        </details>
+      </article>
+    </section>
+    <section id="explicacion">
+      <h3>Explicación de la estructura de la página</h3>
+      <iframe src="https://drive.google.com/file/d/158sF0uW6ZAHSEovAiPf9idVO1n2ecTcj/view?usp=sharing" width="400px" frameborder="0"></iframe>
+      <p>Si no funciona el vídeo, haz clic <a href="https://drive.google.com/file/d/158sF0uW6ZAHSEovAiPf9idVO1n2ecTcj/view?usp=drive_link" target="_blank">aquí</a></p>
+    </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>
+        Actividad 6.1 || Jose Antonio Alcalá Hinojosa
+        <a href="#introduccion">Volver arriba</a>
+      </p>
+    </footer>
+  </body>
+</html>

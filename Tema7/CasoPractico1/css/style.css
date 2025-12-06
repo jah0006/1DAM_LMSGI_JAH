@@ -1,0 +1,30 @@
+
+h1{
+    border:solid;
+    border-color: blue;
+}
+
+#gris{
+    background-color: gray;
+    color: white;
+}
+
+#correcta{
+    color: green;
+}
+
+li{
+    color: red;
+}
+
+#negro{
+    background-color: black;
+    color: white;
+}
+
+#azul{
+    background-color: cyan;
+}
+#letraNegra{
+    color: black;
+}

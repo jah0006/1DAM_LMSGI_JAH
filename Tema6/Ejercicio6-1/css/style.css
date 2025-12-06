@@ -1,0 +1,27 @@
+/* Bordes generales para visualizar la estructura HTML5 */
+
+/* Cabecera y pie */
+header, main, footer {
+  border: 2px solid red; /* Bordes rojos*/
+  padding: 20px;
+}
+
+/* Secciones y artículos */
+section, aside, nav {
+  border: 2px solid green; /* Bordes verdes*/
+  padding: 20px;
+}
+
+article {
+  border: 2px solid blue; /* Bordes azules */
+  padding: 20px;
+}
+#textoCentro{
+  text-align: center;
+}
+
+p a:hover{
+  background-color: blue;
+  color: white;
+}
+

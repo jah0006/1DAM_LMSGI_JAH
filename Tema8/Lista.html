@@ -1,0 +1,49 @@
+<! DOCTYPE html>
+<html lang="es">
+  <head>
+    
+    <title>Lista</title>
+    <style>
+      #lista1 {
+        list-style-type: square;
+        list-style-position: inside; /*Tabula una vez más*/
+      }
+      #lista2 {
+        list-style-image : url("");
+      }
+      ul li:first-child{
+        color:red;
+      }
+      ul li:last-child{
+        color: blue;
+      }
+      ul li:nth-child(2){
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="lista1">
+      <li>
+        España: Lorem Ipsum is simply dummy text of the printing and
+        typesetting.
+      </li>
+      <li>Bélgica</li>
+      <li>Francia</li>
+    </ul>
+    <b>DEPORTES</b>
+    <ul id="lista2">
+      <li>Baloncesto</li>
+      <li>Fútbol</li>
+      <li>Ciclismo</li>
+    </ul>
+
+    <b>-------------</b>
+
+    <p>Texto</p>
+    <p><pre>      texto</pre></p>
+    <p>Texto</p>
+    <p><pre>      texto</pre></p>
+
+  </body>
+</html>

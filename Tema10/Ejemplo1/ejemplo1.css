@@ -1,0 +1,23 @@
+nombre{
+    font-size: 2rem;
+    display: block;
+    border: solid 4px chocolate;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+diasEntrega{
+    color: red;
+    display: block; 
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+#especial{
+    background-color: cyan;
+}
+
+*{
+    background-color: greenyellow;
+}

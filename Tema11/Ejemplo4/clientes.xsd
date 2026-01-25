@@ -32,14 +32,17 @@
 
     <xs:simpleType name="tipoCompras">
         <xs:restriction base="xs:integer">
-            <xs:minInclusive value="3000"></xs:minInclusive>
-            <xs:maxInclusive value="5000"></xs:maxInclusive>
+            <xs:minInclusive value="30000"></xs:minInclusive>
+            <xs:maxInclusive value="50000"></xs:maxInclusive>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="tipoEspañol">
         <xs:restriction base="xs:string">
-            
+            <xs:enumeration value="si"></xs:enumeration>
+            <xs:enumeration value="no"></xs:enumeration>
+            <xs:enumeration value="SI"></xs:enumeration>
+            <xs:enumeration value="NO"></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

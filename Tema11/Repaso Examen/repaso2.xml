@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia nombre="Aventuras Mundo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="repaso2.xsd">
+
+  <paquete id="V-2024-01">
+    <destino>Tokio</destino>
+    <tipo>Circuito</tipo>
+    <duracion>15</duracion>
+    <precio>2450.99</precio>
+    <etiquetas>Vuelos Hoteles Pension_Completa</etiquetas>
+    <contacto_emergencia>600112233</contacto_emergencia>
+  </paquete>
+
+  <paquete id="V-2024-02">
+    <destino>París</destino>
+    <tipo>Estancia</tipo>
+    <duracion>5</duracion>
+    <precio>800</precio>
+    </paquete>
+
+</agencia>

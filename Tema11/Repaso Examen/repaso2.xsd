@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="agencia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paquete" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="destino" type="xs:string"></xs:element>
+                            <xs:element name="tipo" type="tipoTipo"></xs:element>
+                            <xs:element name="duracion" type="tipoDuracion"></xs:element>
+                            <xs:element name="precio" type="xs:decimal"></xs:element>
+                            <xs:element name="etiquetas" type="tipoEtiquetas" minOccurs="0"></xs:element>
+                            <xs:element name="contacto_emergencia" type="tipoContacto" minOccurs="0"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="tipoID"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoID">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="V-\d{4}-\d{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoTipo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Estancia"></xs:enumeration>
+            <xs:enumeration value="Circuito"></xs:enumeration>
+            <xs:enumeration value="Crucero"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDuracion">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="31"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoEtiquetas">
+        <xs:restriction base="tipoLista">
+            <xs:maxLength value="3"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoLista">
+        <xs:list itemType="xs:string"></xs:list>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoContacto">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda ciudad="Madrid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="repaso.xsd">
+
+  <instrumento codigo="STRAT-001">
+    <nombre>Fender Stratocaster</nombre>
+    <familia>Cuerda</familia>
+    <stock>12</stock>
+    <precio>1250.50</precio>
+    <caracteristicas>Electrica Madera Vintage</caracteristicas>
+    <comprador_frecuente>12345678Z</comprador_frecuente>
+  </instrumento>
+
+  <instrumento codigo="SAX-99">
+    <nombre>Saxofón Alto</nombre>
+    <familia>Viento</familia>
+    <stock>3</stock>
+    <precio>890</precio>
+    </instrumento>
+
+</tienda>

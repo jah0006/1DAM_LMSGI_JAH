@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videojuegosHTML.xsl"?>
+<steam>
+    
+    <videojuego id="1">
+        <titulo>Spiderman 2</titulo>
+        <desarrollador>Insomniac Games</desarrollador>
+        <lanzamiento>2023</lanzamiento>
+        <genero>Acción</genero>
+        <plataforma>PS5</plataforma>
+        <calificacion>16</calificacion>
+    </videojuego>
+    
+    <videojuego id="2">
+        <titulo>Uncharted 4: El Legado del Ladrón</titulo>
+        <desarrollador>Naughty Dog</desarrollador>
+        <lanzamiento>2016</lanzamiento>
+        <genero>Acción</genero>
+        <plataforma>PS4 / PC</plataforma>
+        <calificacion>16</calificacion>
+    </videojuego>
+    
+    <videojuego id="3">
+        <titulo>Minecraft</titulo>
+        <desarrollador>Mojang Studios</desarrollador>
+        <lanzamiento>2011</lanzamiento>
+        <genero>Supervivencia</genero>
+        <plataforma>Multiplataforma</plataforma>
+        <calificacion>7</calificacion>
+    </videojuego>
+    
+    <videojuego id="4">
+        <titulo>Fortnite</titulo>
+        <desarrollador>Epic Games</desarrollador>
+        <lanzamiento>2017</lanzamiento>
+        <genero>Battle Royale</genero>
+        <plataforma>Multiplataforma</plataforma>
+        <calificacion>12</calificacion>
+    </videojuego>
+    
+    <videojuego id="5">
+        <titulo>Valorant</titulo>
+        <desarrollador>Riot Games</desarrollador>
+        <lanzamiento>2020</lanzamiento>
+        <genero>Shooter</genero>
+        <plataforma>PC</plataforma>
+        <calificacion>16</calificacion>
+    </videojuego>
+    
+</steam>

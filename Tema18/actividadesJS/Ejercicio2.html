@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <script>
+        function persona(nombre, edad, ciudad) {
+            this.nombre = nombre;
+            this.edad = edad;
+            this.ciudad = ciudad;
+            this.visualiza = visualiza;
+        }
+
+        function visualiza() {
+            document.write("<li>" + this.nombre + " tiene " + this.edad + " años y vive en " + this.ciudad+"</li>");
+        }
+
+        document.write("<h3>Creacion de objetos y visualizacion</h3><br>")
+
+        document.write("<ul>");
+            persona1 = new persona("Jose Antonio", 21, "Priego de Córdoba");
+            persona2 = new persona("Juan Antonio", 20, "Mengibar");
+            persona3 = new persona("Alejandro", 21, "Jaen");
+
+            persona1.visualiza();
+            persona2.visualiza();
+            persona3.visualiza();
+        document.write("</ul")
+
+    </script>
+</head>
+
+<body>
+    
+</body>
+
+</html>

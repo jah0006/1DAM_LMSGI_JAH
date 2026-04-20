@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var cad="Lenguaje de Marcas";
+        var array;
+
+        //funciones de texto
+
+        //Array
+        array = cad.split(" "); //crea el array separando por " "
+        console.log(array);
+        array.pop(); //elimina el ultimo elemento del array
+        console.log(array);
+        array.push("datos"); //añade un elemento al finald el array
+        console.log(array);
+        array.shift(); //elimina el primer elemento del array
+        console.log(array);
+        array.unshift("bases"); //añade un elemento al principio
+        console.log(array);
+        array.reverse(); //da la vuelta a los elementos del array
+        console.log(array);
+
+
+        //texto
+        document.write("Longitud: "+cad.length+"<br>"); 
+        document.write("Mayusculas: "+cad.toUpperCase+"<br>");
+        document.write("Caracter 5: "+cad.charAt(5)+"<br>");
+        document.write("Posicion A: "+cad.indexOf("a")+"<br>");
+        document.write("Extraer texto: "+cad.substring(5,10)+"<br>");
+        document.write("Contiene 'de': "+cad.includes("de")+"<br>");
+        document.write("Pasar array a texto: "+array.join(" ")+"<br>");
+        
+        
+        
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcularIVA</title>
+</head>
+<body>
+    <script>
+
+        var precio=prompt("Introduce el precio base: ");
+
+        function iva(precio){
+            var iva_calculado=precio*1.16;
+            return ("El precio con IVA es "+ Math.round(iva_calculado)+"€");
+        }
+
+        alert(iva(precio));
+    </script>
+</body>
+</html>

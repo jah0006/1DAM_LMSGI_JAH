@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+</head>
+<body>
+    <p id="texto">Texto de ejemplo</p>
+    <button onclick="changeColor('red')">Rojo</button>
+    <button onclick="changeColor('blue')">Azul</button>
+
+    <script>
+        function changeColor(colorNuevo){
+            var elemento = document.getElementById("texto");
+            elemento.style.color=colorNuevo;
+            elemento.style.fontSize="16px";
+        }
+    </script>
+</body>
+</html>

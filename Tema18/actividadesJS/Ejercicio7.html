@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7</title>
+</head>
+<body>
+
+    <p id="p">Pulse el boton para cambiar su contenido</p>
+    <p>Otro parrafo de prueba</p>
+    <button onclick="cambiaRojo()">Cambiar a Amarillo</button>
+
+    <script>
+        function cambiaRojo(){
+            var elemento = document.getElementById("p");
+            elemento.style.color = "red";
+            elemento.style.backgroundColor="yellow"
+            elemento.innerHTML="Cambio de <b>texto</b>";   //cambia el contenido del texto con html
+            elemento.innerText="Cambio de <b>texto</b>";   //cambia el contenido del texto sin html
+            elemento.outerHTML="Cambio de <b>texto</b>"    //cambia todo el parrafo y pone lo que se ha escrito
+
+        }
+
+    </script>
+</body>
+</html>

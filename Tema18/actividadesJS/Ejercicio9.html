@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9</title>
+</head>
+
+<body>
+
+    <h1 id="titulo">Desarrollo de Aplicaciones
+        <br>Multiplataforma/Web</h1>
+    <h2 id="modulo">Modulo: Lenguaje de Marcas<h2>
+    <h2>Duracion: <span id="duracion">129</span> horas</h2>
+    <input type="button" value="Cambiar" onclick="cambiar ()"/>
+
+    <script>
+        function cambiar(){
+            var boton=document.getElementsByTagName("input")[0];
+            var tit=document.getElementById("titulo");
+            var cuer=document.getElementsByTagName("body")[0];
+
+            tit.style.border = "solid 2px chocolate";
+            tit.style.textAlign="center";
+            tit.style.boxShadow="10px 10px 010px grey";
+
+            boton.value="Cambiado";
+            boton.style.backgroundColor="white";
+
+            cuer.style.backgroundColor="black";
+            cuer.style.color="white";
+
+            document.getElementById("duracion").innerText=128;
+        }
+    </script>
+
+</body>
+
+</html>
